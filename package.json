@@ -1,0 +1,29 @@
+{
+  "name": "webRTC",
+  "version": "1.0.0",
+  "description": "Simple webRTC application",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhanalakshmi-narala/webRTC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhanalakshmi-narala/webRTC/issues"
+  },
+  "homepage": "https://github.com/dhanalakshmi-narala/webRTC#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
